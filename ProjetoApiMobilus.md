@@ -21,6 +21,14 @@
 - Para banco de dados: "ConexaoMongoDB" e "ConexaoBancoProduto".
 - Para blobStorage, considerando que voce já criou uma storage account na Azure, insira sua conexão e o nome do seu container em "BlobConnectionString" e "BlobContainerName". Obs: Não é necessário alterar a disposição das connectionsStrings, visto que já estão funcionais e bem identadas, apenas sera necessária as conexões mesmo.
 
+# BlobStorage
+"ArquivosProdutoControllers"
+- Adicionei uma API BlobStorage que faz as operações parecidas com o CRUD.
+- Upload -> Envia o arquivo para o container
+- Get -> Baixa o arquivo passando nome dele
+- Delete -> Apaga o arquivo, passando o nome dele
+- Get -> Lista os arquivos contidos no container 
+
 ![image](https://github.com/PedroRepos/tech-test-backend-csharp/assets/120064429/3ce766a5-d592-4259-971e-67133799f552)
 
 # Arquitetura
