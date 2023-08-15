@@ -16,6 +16,13 @@
 - Adicionei summarys em cada método para explicar o funcionamento de cada um
 - **TODAS AS REQUISIÇÕES HTTP TESTADAS E FUNCIONAIS**
 
+# Conexão com o Banco de Dados
+- Caso deseje baixar a API e utilizar localmente, basta inserir sua ConnectionString no appSettings.Development.json. Por motivos de segurança, removi minhas conexões para não ficar nenhuma autenticação exposta.
+- Para banco de dados: "ConexaoMongoDB" e "ConexaoBancoProduto".
+- Para blobStorage, considerando que voce já criou uma storage account na Azure, insira sua conexão e o nome do seu container em "BlobConnectionString" e "BlobContainerName". Obs: Não é necessário alterar a disposição das connectionsStrings, visto que já estão funcionais e bem identadas, apenas sera necessária as conexões mesmo.
+
+![image](https://github.com/PedroRepos/tech-test-backend-csharp/assets/120064429/3ce766a5-d592-4259-971e-67133799f552)
+
 # Arquitetura
 - Detalhes:
 -> O software está hospedado em um APPService na Azure.<br>
@@ -62,6 +69,9 @@
   - Foram aplicados para todos os endpoints, com os Asserts bem definidos para trabalharem dentro de seu escopo.
     
    ![image](https://github.com/PedroRepos/tech-test-backend-csharp/assets/120064429/8829483c-da85-41cc-ba3d-5a21db302f8e)
+
+  
+    
 
   
 
