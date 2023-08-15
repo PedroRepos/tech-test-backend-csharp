@@ -31,8 +31,8 @@ TECNOLOGIAS USADAS: Visual Studio Community, C#, EntityFramework, MSTests, SqlSe
 - Foi criadas duas entidades para cada um dos bancos <br>
 ![image](https://github.com/PedroRepos/tech-test-backend-csharp/assets/120064429/d806920f-0752-4f58-866e-32e408d15758)
 
-Produto - Representa a tabela do bando de dados do SQL
-ProdutoMongo - Representa a estrutura da tablela do banco de daods MongoDB
+- Produto -> Representa a tabela do bando de dados do SQL
+- ProdutoMongo -> Representa a estrutura da tablela do banco de daods MongoDB
 
 
 
