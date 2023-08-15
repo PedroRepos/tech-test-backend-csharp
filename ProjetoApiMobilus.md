@@ -14,6 +14,7 @@
 - Na Api "ProdutosMongoDB", você pode inserir os dados normalmente com o "id". 
 - Foram adcionadas validações para o preço, por isso, não é possível adicionar um preço menor que zero. Também não é possível repetir o id na "ProdutosMongoDB".
 - Adicionei summarys em cada método para explicar o funcionamento de cada um
+- **TODAS AS REQUISIÇÕES HTTP TESTADAS E FUNCIONAIS**
 
 # Arquitetura
 - Detalhes:
