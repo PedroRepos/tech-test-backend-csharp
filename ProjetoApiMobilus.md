@@ -16,11 +16,13 @@
 - Adicionei summarys em cada método para explicar o funcionamento de cada um
 
 # Arquitetura
-- O software está hospedado em um APPService na Azure.
-- Está fazendo a persistência dos dados SQL também na Azure.
-- A persistência dos dados MongoDB estão em cloud disponibilizado pela ferramenta Atlas.<br>
--> Estrutura detalhada a baixo.
+- Detalhes:
+-> O software está hospedado em um APPService na Azure.<br>
+-> Persistência do danco de dados SQL na Azure.<br>
+-> Persistência dos dados MongoDB estão em cloud disponibilizado pela ferramenta Atlas.<br>
 
+- Estrutura Geral
+  
 ![ProdutoAPI](https://github.com/PedroRepos/tech-test-backend-csharp/assets/120064429/0f75333b-57e9-4360-bf00-9a63ba250d43)
 
 # Código:
